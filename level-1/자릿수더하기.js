@@ -12,5 +12,6 @@ function solution(n){
     }
     return answer;
 }
+
 // 각 자리수의 숫자를 각각 나누기 위해 문자열로 바꾸고 for문으로 n의 길이로 제한을 둔 뒤,
 // answer에 각 n의 인덱스 값을 문자열에서 숫자로 바꾸는 parseInt로 치환 한 뒤 += 누적덧셈을 하여 반환한다.
