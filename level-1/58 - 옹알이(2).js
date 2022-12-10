@@ -11,3 +11,8 @@ function solution(babbling) {
     }
     return cnt;
 }
+
+// 풀이
+// 정규식을 사용하여 풀었다. (정규식 익히는 중)
+// babbling를 탐색하는 for of문을 돌려서 babbling과 일치하는
+// 정규식 조건문을 걸었다. 조건이 일치 했을 때, cnt를 증가 시켰다.
