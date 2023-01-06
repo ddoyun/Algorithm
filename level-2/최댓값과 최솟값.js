@@ -8,9 +8,8 @@ function solution(s) {
     const min = Math.min.apply(null, arr);
     
     // answer에 최소 값 / 최대 값 push
-    answer.push(min);
-    answer.push(max);
+    answer.push(min, max);
     
     // 문자열로 치환
-    return answer.join(" ");;
+    return answer.join(" ");
 }
